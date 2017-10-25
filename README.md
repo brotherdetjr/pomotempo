@@ -2,6 +2,8 @@
 This is a widget for modified Pomodoro technique.
 It allows to set up arbitrary time from 5 mins to 1 hour with five-minute step.
 
+Currently hosted at: https://pomotempo.firebaseapp.com/
+
 Main ideas:
 * Simplicity and minimalism
 * Yet perfect UX
