@@ -1,0 +1,149 @@
+body {
+    padding: 0.5rem;
+    padding-bottom: 0.2rem;
+}
+
+button > img {
+    width: 0.9rem;
+    height: 0.9rem;
+    margin-top: -0.2rem;
+    margin-right: 0.3rem;
+}
+
+button[disabled] > img {
+    opacity: 0.4;
+}
+
+.container {
+    padding-top: 0.3rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#focusingOnMessage {
+    padding-top: 0.35rem;
+    margin-bottom: -0.5rem;
+    font-size: 1.15rem;
+}
+
+#copyrightMessage {
+    padding-top: 0.4rem;
+}
+
+#description {
+    outline: none;
+    text-overflow: ellipsis;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 200;
+    display: inline-block;
+    font-size: 1.8rem;
+    padding: 0;
+    margin: 0.4rem;
+}
+
+#description::-ms-clear {
+    display: none;
+}
+
+#descriptionWrapper {
+    height: 3.8rem;
+}
+
+footer {
+    font-size: small;
+    text-align: center;
+}
+
+#timer {
+    display: inline-block;
+    width: auto;
+}
+
+#amountWrapper {
+    display: inline-block;
+    width: 14rem;
+}
+
+#buttonWrapper {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 0.5rem;
+    top: 0.4rem;
+}
+
+.jumbotron {
+    text-align: center;
+    padding: 0;
+}
+
+@-webkit-keyframes fadeIt {
+  0% { background-color: #e9ecef; }
+  100% { background-color: coral; }
+}
+@keyframes fadeIt {
+  0% { background-color: #e9ecef; }
+  100% { background-color: coral; }
+}
+
+@-webkit-keyframes fadeItOut {
+  0% { background-color: coral; }
+  100% { background-color: #e9ecef; }
+}
+@keyframes fadeItOut {
+  0% { background-color: coral; }
+  100% { background-color: #e9ecef; }
+}
+
+@media screen and (min-width: 30rem) {
+    #mainPane {
+        width: 29rem;
+    }
+    #description {
+        width: 27rem;
+    }
+}
+
+@media screen and (max-width: 30rem) {
+    #mainPane {
+        width: 20.8rem;
+    }
+    #description {
+        width: 18.8rem;
+    }
+}
+
+#mainPane {
+    margin: 0 0 0.4rem 0;
+    background-image:none !important;
+    box-shadow: 0 0 0.4rem #999999;
+}
+
+#mainPane.running {
+    -webkit-animation: fadeIt 1s linear;
+    animation: fadeIt 1s linear;
+    animation-fill-mode: forwards;
+}
+
+#mainPane:not(.running) {
+    -webkit-animation: fadeItOut 1s linear;
+    animation: fadeItOut 1s linear;
+    animation-fill-mode: forwards;
+}
+
+.flip-clock-divider .flip-clock-label {
+    display: none;
+}
+
+.flip-clock-wrapper {
+    margin: -0.5em 1em 1em 1em;
+}
+
+#gitHubLinkWrapper {
+    width: 100%;
+    text-align: right;
+    padding-top: 0.2rem;
+    padding-right: 0.2rem;
+    margin-bottom: -2.3rem;
+}
