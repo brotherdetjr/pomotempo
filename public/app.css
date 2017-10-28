@@ -147,3 +147,31 @@ footer {
     padding-right: 0.2rem;
     margin-bottom: -2.3rem;
 }
+
+.irs-slider {
+    width: 2rem;
+    height: 2rem;
+    top: 1rem;
+    border-radius: 2rem;
+    background-color: #ed5565;
+    background-image: none;
+    border-width: thin;
+    border-color: #e9ecef;
+    border-style: solid;
+}
+
+.irs-single:after {
+    display: none
+}
+
+.irs-line-left {
+    height: 12px;
+    background-position: 0 -30px;
+    background-image: none;
+    background-color: #ed5565;
+    left: 0.5rem;
+}
+
+#startStopButton {
+    width: 4.2rem;
+}
