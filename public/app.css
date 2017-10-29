@@ -24,6 +24,7 @@ button[disabled] > img {
     padding-top: 0.35rem;
     margin-bottom: -0.5rem;
     font-size: 1.15rem;
+    cursor: default;
 }
 
 #copyrightMessage {
@@ -158,6 +159,11 @@ footer {
     border-width: thin;
     border-color: #e9ecef;
     border-style: solid;
+    cursor: pointer;
+}
+
+.irs-single {
+    cursor: pointer;
 }
 
 .irs-single:after {
